@@ -1,48 +1,47 @@
 # 2048 Game
 
-2048 is a number puzzle game built with vanilla JavaScript. The goal is to combine matching tiles and reach 2048.
+A simple 2048 puzzle game made with JavaScript, HTML, and SCSS.
 
-The game runs in the browser and uses keyboard controls to move tiles around a 4×4 grid.
+Use the arrow keys to move the tiles on a 4×4 board. When two tiles with the same number meet, they merge into one. The goal is to reach 2048.
 
-## Live Preview
+## Live Demo
 
-[Play 2048](https://nvlasenko.github.io/2048-game-final/)
+[Play the game](https://nvlasenko.github.io/2048-game-final/)
 
 ## Technologies Used
 
-- **HTML5** — page structure
-- **SCSS** — styling
-- **JavaScript (ES6+)** — game logic and user interactions
-- **Parcel** — development server and project build
+- HTML5
+- SCSS
+- JavaScript (ES6+)
+- Parcel
 
 ## Getting Started
 
-To run the project locally:
+To run the game locally, clone the repository:
 
-1. Clone the repository:
+```bash
+git clone https://github.com/NVlasenko/2048-game-final.git
+cd 2048-game-final
+```
 
-   ```bash
-   git clone https://github.com/NVlasenko/2048-game-final.git
-   cd 2048-game-final
-   ```
+Install dependencies:
 
-2. Install dependencies:
+```bash
+npm install
+```
 
-   ```bash
-   npm install
-   ```
+Start the project:
 
-3. Start the development server:
-
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+```
 
 ## Features
 
-- **Keyboard controls:** Move tiles using the arrow keys.
-- **Tile merging:** Combine matching numbers into a single tile.
-- **Score tracking:** Earn points whenever tiles merge.
-- **Random tiles:** A new tile appears after each valid move.
-- **Win and lose states:** The game detects when you reach 2048 or run out of available moves.
-- **Restart:** Start a new game and reset the score at any time.
+- Move tiles with the arrow keys
+- Merge tiles with matching numbers
+- Keep track of your score
+- Get a new tile after each valid move
+- Win by reaching 2048
+- Game over when no moves are left
+- Restart the game at any time
